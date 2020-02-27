@@ -1,0 +1,36 @@
+body {
+    color: #4a4a4a;
+
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.hero {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar-brand , .navbar-tabs {
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+    min-height: 3.25rem;
+}
+.subtitle.is-2{
+    font-size: 2.5rem;
+}
+
+@media screen and (min-width: 1024px), print
+    .container>.navbar .navbar-brand, .navbar>.container .navbar-brand {
+        margin-left: -.75rem;
+    }
+@media screen and (min-width:769px), print .column.is-6, .column.is-6-tablet {
+    flex: none;
+    width: 50%;
+}
+[data-aos^=fade][data-aos^=fade]{
+    opacity:0;
+    transition-property: opacity, transform;
+}
+

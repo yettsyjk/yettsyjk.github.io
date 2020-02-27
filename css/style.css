@@ -75,7 +75,13 @@ p {
     min-height: 3.25rem;
 }
 .navbar-item {
-    text-decoration: none;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
 .navbar-burger {
     color:#4a4a4a;
@@ -106,12 +112,7 @@ p {
 a.navbar-item {
     cursor: pointer;
 }
-.logo {
-    color: #000;
-    font-family: 'Crimson Text', serif;
-    font-size: 30px;
-    padding: 0;
-}
+
 .box {
     background-color: #fff;
     border-radius: 6px;

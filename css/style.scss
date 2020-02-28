@@ -19,6 +19,10 @@ body {
     margin-right: -.75rem;
     margin-top: -.75rem;
 }
+.column.is-6 {
+    flex: none;
+    width: 50%;
+}
 .has-text-centered {
     text-align: center!important;
 }
@@ -48,16 +52,5 @@ body {
     font-size: 2rem;
 }
 
-@media screen and (min-width: 1024px), print
-    .container>.navbar .navbar-brand, .navbar>.container .navbar-brand {
-        margin-left: -.75rem;
-    }
-@media screen and (min-width:769px), print .column.is-6, .column.is-6-tablet {
-    flex: none;
-    width: 50%;
-}
-[data-aos^=fade][data-aos^=fade]{
-    opacity:0;
-    transition-property: opacity, transform;
-}
+
 

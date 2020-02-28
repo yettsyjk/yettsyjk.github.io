@@ -31,6 +31,8 @@ p {
 /* ID's */
 #gallery {
     text-align: center;
+    margin: 0 10% 10% 10%;
+
 }
 /* CLASSES */
 .container {
@@ -125,6 +127,9 @@ a.navbar-item {
     background-color: transparent;
     padding: 1.5rem;
 }
+.has-text-centered {
+    text-align: center!important;
+}
 .subtitle {
     color: #000;
     font-weight: 400;
@@ -153,6 +158,12 @@ a.navbar-item {
     box-sizing: border-box;
     font-size: 1rem;
     position: relative;
+    text-align: center;
+}
+.sectionWork {
+    color: #009999;
+    font-size: 30px;
+    margin: 3% 5% 2% 5%;
     text-align: center;
 }
 .sectionContact {

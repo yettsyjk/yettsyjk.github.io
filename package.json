@@ -1,0 +1,26 @@
+{
+  "name": "yettsyjk.github.io",
+  "version": "1.0.0",
+  "description": "Yettsy Knapp Software Developer",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+  "css-watch": "npm run css-build -- --watch",
+  "start": "npm run css-watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yettsyjk/yettsyjk.github.io.git"
+  },
+  "author": "Yettsy J Knapp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yettsyjk/yettsyjk.github.io/issues"
+  },
+  "homepage": "https://github.com/yettsyjk/yettsyjk.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.8.0"
+  }
+}

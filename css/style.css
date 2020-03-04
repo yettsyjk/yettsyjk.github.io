@@ -32,6 +32,10 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+img {
+    height: auto;
+    max-width: 100%;
+}
 /* ID's */
 #gallery {
     text-align: center;

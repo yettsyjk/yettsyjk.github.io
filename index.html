@@ -12,9 +12,10 @@
     <meta itemprop="url" content="http://www.yettsyjknapp.com">
     <meta itemprop="og:description" content="Yettsy Jo Knapp is a student of life. Software Engineer based in Denver, Colorado US">
     <!--CSS-->
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+ 
     <!--ICON-->
     <meta nane="title" content="Yettsy J Knapp | Software Developer">
     <title>Yettsy J Knapp | Software Dev</title>
@@ -36,7 +37,7 @@
         <div class="navbar-brand">
             <a class="navbar-item js-scroll-trigger" href="#top">Yettsy Jo Knapp</a>
             
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarmobile">
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -124,34 +125,42 @@
             <div class="row">
                 <div class="columns is-multiline">
                 <div class="column is-4">
-                    <div class="content aos-init">
-                        <a href="https://pubcrawlco.herokuapp.com/" target="_blank"><img src="../images/pubcrawl.png" alt="pubcrawl app" height="100px" width="150px">PubCrawl Colorado</img></a>
-                        <p>Web app created using a third-party api to search for local breweries in Colorado
-                        <br/>
-                            AngularJS 8, HTML, CSS, and SCSS.
-                        </p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="content aos-init">
-                    <a href="https://pages.git.generalassemb.ly/yettsyjk/SEI6_Project1-ChaseThem/" target="_blank"><img src="../images/chasegame.png" alt="Chase Em Game" height="180px" width="250px">Chase `Em</img></a>
-                    <p>Brick Breaker Style Game created using HTML, CSS and Vanilla JavaScript.
-                    </p>
-                </div>
-                </div>
-                    <div class="column">
-                        <div class="content">
-                        <a href="https://giphysearch.herokuapp.com/" target="_blank">
-                            <img src="../images/giphySearchApp.png" alt="Giphy Search" height="100px" width="250px"></img></a>
-                        <p>Third party API search application
-                        <br/>
-                        ReactJS, HTML, CSS.
-                        <br/>
-                        </p>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <a href="https://pubcrawlco.herokuapp.com/" target="_blank"><img src="../images/pubcrawl.png" alt="pubcrawl app" height="100px" width="150px">PubCrawl Colorado</img></a>
+                                </div>
+                            <div class="flip-card-back">
+                                    <p>Web app created using a third-party api to search for local breweries in Colorado
+                                    <br/>AngularJS 8, HTML, CSS, and SCSS.</p>
+                            </div>
                         </div>
                     </div>
-            </div>
-        </div>
+                <div class="column">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <a href="https://pages.git.generalassemb.ly/yettsyjk/SEI6_Project1-ChaseThem/" target="_blank"><img src="../images/chasegame.png" alt="Chase Em Game" height="180px" width="250px">Chase `Em</img></a>
+                            </div>
+                            <div class="flip-card-back">
+                                    <p>Brick Breaker Style Game created using HTML, CSS and Vanilla JavaScript.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="column">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                        <a href="https://giphysearch.herokuapp.com/" target="_blank"><img src="../images/giphySearchApp.png" alt="Giphy Search" height="100px" width="250px"></img></a>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>Third party API search application
+                                    <br/>ReactJS, HTML, CSS.</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
         </section>
     </div>
     <!--contact-->
@@ -207,5 +216,5 @@
         </div>
         </div>
     </div>
-    <script src="bower_components/aos/dist/aos.js"></script> 
+    
 </body>

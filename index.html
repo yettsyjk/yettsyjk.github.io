@@ -13,10 +13,8 @@
     <meta itemprop="url" content="http://www.yettsyjknapp.com">
     <meta itemprop="og:description" content="Yettsy Jo Knapp is a student of life. Software Engineer based in Denver, Colorado US">
     <!--CSS-->
-    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
- 
+    <link rel="stylesheet" type="text/css" href="css/personal.css">
     <!--ICON-->
     <meta nane="title" content="Yettsy J Knapp | Software Developer">
     <title>Yettsy J Knapp | Software Dev</title>
@@ -26,41 +24,49 @@
     <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/39/6/common.js"></script>
     <!--FONTS-->
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    
     <link href="https://fonts.googleapis.com/css?family=Raleway|Spartan&display=swap" rel="stylesheet">
-    
+    <script async type="text/javascript" src="js/bulma.js"></script>
   
 </head>
-<body class="has-navbar-fixed-top" >
+<body data-gr-c-s-loaded="true" cz-shortcut-listen="true">
     <!--navbar-->
-    <nav class="navbar is-fixed-top logo" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item js-scroll-trigger" href="#top">Yettsy Jo Knapp</a>
             
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+            <div role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
-            </a>
-        </div>
-        <div id="navbarmobile" class="navbar-menu">
-            <div class="navbar-end">
-                <ul>
-                    <li class="navItems">
-                        <a class="navbar-item" href="#about">About</a>
-                    </li>
-                    <li class="navItems">
-                        <a class="navbar-item" href="#gallery">Portfolio Gallery</a>
-                    </li>
-                    <li class="navItems">
-                        <a class="navbar-item" href="https://drive.google.com/file/d/1HP1JhPMUMJTwFmmBYVWtooNsVyztM_Jx/view?usp=sharing" target="_blank">Resume</a>
-                    </li>
-                    <li class="navItems">
-                        <a class="navbar-item" href="#contact">Let's Connect</a>
-                    </li>
-                </ul>
             </div>
+        </div>
+        <div id="navbarmobile navMenu" class="navbar-menu">
+            <div class="navbar-end">
+                        <a class="navbar-item" href="#about">
+                            <span class="icon">
+                            <i class="fas fa-info"></i>
+                            </span>
+                            <span>About</span>
+                        </a>
+                        <a class="navbar-item" href="#gallery">
+                            <span class="icon">
+                                <i class="fas fa-list"></i>
+                                </span>
+                            <span>Portfolio Gallery</span>
+                        </a>
+                        <a class="navbar-item" href="https://drive.google.com/file/d/1HP1JhPMUMJTwFmmBYVWtooNsVyztM_Jx/view?usp=sharing" target="_blank">
+                            <span class="icon">
+                            <i class="fas fa-file-alt"></i>
+                            </span>
+                                <span>Resume</span>
+                        </a>
+                        <a class="navbar-item" href="#contact">
+                            <span class="icon">
+                            <i class="fas fa-envelope"></i>
+                            </span>
+                                <span>Let's Connect</span>
+                        </a>
         </div>
         </div>
     </nav>
@@ -75,8 +81,8 @@
                         <h2 class="subtitle is-3">My name is Yettsy Jo</h2>
                         <h2 class="subtitle is-4">I'm a junior software developer,<br/>with full-stack web development skills.<br/>I'm seeking employment opportunities <br/>in the Denver, Colorado area.</h2>
                     </div>
-                <div class="column is-6 is-offset-3 arrow bounce is-primary">
-                <i class="fas fa-arrow-circle-down fa-w-10 fa-lg" aria-hidden="true" href="#about" role="img" viewBox="0 0 320 512">
+                <div class="column is-6 is-offset-3 arrow-bounce is-primary">
+                <i class="fas fa-arrow-circle-down fa-w-10 fa-lg" aria-hidden="true" role="img" viewBox="0 0 320 512">
                 <path fill="currentColor"></path>
                 </i>
                 </div>
@@ -91,13 +97,13 @@
     <section class="section">
         <div class="box" id="about">
         <br/>
-        <p class="subtitle is-2 sectionAbout section-title">About Me</p>
+        <span class="subtitle is-2 sectionAbout section-title">About Me</span>
             <div class="card-content">
                 <div class="media">
                     <div class="columns is-multiline">
                         <div class="column is-2 is-offset-1 aos-init" data-aos="fade-right">
-                            <figure class="image is-128x128">
-                                <image class="is-round" src="../images/YettsyPortfolio.jpg">
+                            <figure class="image is-4by3">
+                                <img class="is-round" src="../images/YettsyPortfolio.jpg" alt="developer her/she">
                             </figure>
                         </div>
                         <div class="column is-8 is offset-3 media-content aos-init aos-animate" date-aos="fade-left">
@@ -117,45 +123,41 @@
         <div class="container">
             <div id="gallery" class="aos-init">
             <br/>
-            <p class="subtitle is-2 sectionWork">Gallery</p>
+            <span class="subtitle is-2 sectionWork">Gallery</span>
             <h4 class="subtitle is-4">My latest projects...</h4>
             <p>Built from scratch with JavaScript, React, Python, Angular 8, PostgreSQL, SQL and MongoDB.</p>
             <p>Check out what I have built!</p>
             <br/>
             </div>
-            <div class="row">
-                <div class="columns is-multiline">
+
+
+            <div class="columns has-same-height is-gapless">
+                <div class="column">
                 <div class="column is-4">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                                <div class="flip-card-front">
+                    <div class="card">
+                        <div class="card-content">
+                                <div class="content">
                                     <a href="https://pubcrawlco.herokuapp.com/" target="_blank"><img src="../images/pubcrawl.png" alt="pubcrawl app" height="100px" width="150px">PubCrawl Colorado</img></a>
-                                </div>
-                            <div class="flip-card-back">
                                     <p>Web app created using a third-party api to search for local breweries in Colorado
-                                    <br/>AngularJS 8, HTML, CSS, and SCSS.</p>
+                                    <br/>AngularJS 8, PostgreSQL, HTML, CSS, and SCSS.</p>
                             </div>
                         </div>
                     </div>
                 <div class="column">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="content">
                                 <a href="https://pages.git.generalassemb.ly/yettsyjk/SEI6_Project1-ChaseThem/" target="_blank"><img src="../images/chasegame.png" alt="Chase Em Game" height="180px" width="250px">Chase `Em</img></a>
-                            </div>
-                            <div class="flip-card-back">
                                     <p>Brick Breaker Style Game created using HTML, CSS and Vanilla JavaScript.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                     <div class="column">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="content">
                                         <a href="https://giphysearch.herokuapp.com/" target="_blank"><img src="../images/giphySearchApp.png" alt="Giphy Search" height="100px" width="250px"></img></a>
-                                </div>
-                                <div class="flip-card-back">
                                     <p>Third party API search application
                                     <br/>ReactJS, HTML, CSS.</p>
                                 </div>
@@ -164,6 +166,19 @@
                 </div>
         </section>
     </div>
+    <!--resume-->
+    <section class="section" id="resume">
+        <div class="section-heading">
+        <h3 class="title is-2">Resume</h3>
+        <h4 class="subtitle is-5">Professional Experience</h4>
+            <a href="https://drive.google.com/file/d/1HP1JhPMUMJTwFmmBYVWtooNsVyztM_Jx/view?usp=sharing" target="_blank" class="button is-link is-medium">
+            <span class="icon">
+            <i class="fas fa-file-alt"></i>
+            </span>
+            <span>Download My Resume</span>
+        </a>
+        </div>
+    </section>
     <!--contact-->
     <section class="section">
     <div class="container">
@@ -219,3 +234,4 @@
     </div>
     
 </body>
+</html>

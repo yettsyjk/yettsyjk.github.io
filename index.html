@@ -30,7 +30,7 @@
 </head>
 <body data-gr-c-s-loaded="true" cz-shortcut-listen="true">
     <!--navbar-->
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item js-scroll-trigger" href="#top">Yettsy Jo Knapp</a>
@@ -119,47 +119,70 @@
         </div>
     </section>
     <!--Gallery-->
-    <section class="section">
-        <div class="container">
-            <div id="gallery" class="aos-init">
-            <br/>
-            <span class="subtitle is-2 sectionWork">Gallery</span>
-            <h4 class="subtitle is-4">My latest projects...</h4>
-            <p>Built from scratch with JavaScript, React, Python, Angular 8, PostgreSQL, SQL and MongoDB.</p>
-            <p>Check out what I have built!</p>
-            <br/>
+    <section class="section" id="about">
+        <div class="section-heading">
+            <div class="gallery">
+                <br/>
+                <span class="subtitle is-2 sectionWork">Gallery</span>
+                <h4 class="subtitle is-4">My latest projects...</h4>
+                    <div class="container">
+                    <p>Built from scratch with JavaScript, React, Python, Angular 8, PostgreSQL, SQL and MongoDB.</p>
+                    <p>Check out what I have built!</p>
+                    <br/>
+                    </div>
             </div>
-
+        </div>
     <!--card stack-->
             <div class="columns has-same-height is-gapless">
                 <div class="column">
-                <div class="column is-4">
+                <!--Gallery1-->
                     <div class="card">
                         <div class="card-content">
+                            <h3 class="title is-4">PubCrawl Colorado App</h3>
                                 <div class="content">
-                                    <a href="https://pubcrawlco.herokuapp.com/" target="_blank"><img src="../images/pubcrawl.png" alt="pubcrawl app" height="100px" width="150px">PubCrawl Colorado</img></a>
-                                    <p>Web app created using a third-party api to search for local breweries in Colorado
-                                    <br/>AngularJS 8, PostgreSQL, HTML, CSS, and SCSS.</p>
-                            </div>
+                                    <div class="card-image">
+                                        <img src="../images/pubcrawl.png" alt="pubcrawl app" height="100px" width="150px">PubCrawl Colorado</img>
+                                        <a href="https://pubcrawlco.herokuapp.com/" target="_blank"></a>
+                                        <p>Web app created using a third-party api to search for local breweries in Colorado
+                                        <br/>AngularJS 8, PostgreSQL, HTML, CSS, and SCSS.</p>
+                                        <p>Time frame: 1 week</p>
+                                        <progress class="progress is-primary" value="75" max="100"></progress>
+                                   </div>
+                                </div>
+                                </br/>
                         </div>
                     </div>
+                <!--Gallery2-->
                 <div class="column">
                     <div class="card">
                         <div class="card-content">
+                        <h3 class="title is-4">Chase 'Em Game</h3>
                             <div class="content">
-                                <a href="https://pages.git.generalassemb.ly/yettsyjk/SEI6_Project1-ChaseThem/" target="_blank"><img src="../images/chasegame.png" alt="Chase Em Game" height="180px" width="250px">Chase `Em</img></a>
+                                <div class="card-image">
+                                <img src="../images/chasegame.png" alt="Chase Em Game" height="180px" width="250px"></img>
+                                </div>
+                                <a href="https://pages.git.generalassemb.ly/yettsyjk/SEI6_Project1-ChaseThem/" target="_blank">Chase `Em</a>
                                     <p>Brick Breaker Style Game created using HTML, CSS and Vanilla JavaScript.</p>
+                                    <p>Time frame: 1 week</p>
+                                    <progress class="progress is-primary" value="75" max="100"></progress>
                             </div>
                         </div>
                     </div>
-                </div>
+                    </div>
+                    <!--Gallery3-->
                     <div class="column">
                         <div class="card">
                             <div class="card-content">
+                            <h3 class="title is-4">Giphy Search App</h3>
                                 <div class="content">
-                                        <a href="https://giphysearch.herokuapp.com/" target="_blank"><img src="../images/giphySearchApp.png" alt="Giphy Search" height="100px" width="250px"></img></a>
+                                        <div class="card-image">
+                                         <img src="../images/giphySearchApp.png" alt="Giphy Search" height="100px" width="250px"></img>
+                                       </div>
+                                        <a href="https://giphysearch.herokuapp.com/" target="_blank"></a>
                                     <p>Third party API search application
                                     <br/>ReactJS, HTML, CSS.</p>
+                                    <p>Time frame: 1 week</p>
+                                    <progress class="progress is-primary" value="75" max="100"></progress>
                                 </div>
                             </div>
                         </div>

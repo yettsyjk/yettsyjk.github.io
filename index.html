@@ -14,6 +14,7 @@
     <meta itemprop="og:description" content="Yettsy Jo Knapp is a student of life. Software Engineer based in Denver, Colorado US">
     <!--CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/personal.css">
     <!--ICON-->
     <meta nane="title" content="Yettsy J Knapp | Software Developer">
@@ -124,7 +125,7 @@
             <div class="gallery">
                 <br/>
                 <span class="subtitle is-2 sectionWork">Gallery</span>
-                <h4 class="subtitle is-4">My latest projects...</h4>
+                <p class="subtitle is-4">My latest projects...</p>
                     <div class="container">
                     <p>Built from scratch with JavaScript, React, Python, Angular 8, PostgreSQL, SQL and MongoDB.</p>
                     <p>Check out what I have built!</p>
@@ -134,12 +135,12 @@
         </div>
     <!--card stack-->
     <div class="card-container">
-            <div class="columns has-same-height is-gapless">
-                <div class="column">
+    <div class="row columns has-same-height is-multiline">
+                <div class="column is-one-third">
                     <!--Gallery1-->
-                        <div class="card">
+                        <div class="card large round">
                             <div class="card-content">
-                                <h3 class="title is-4">PubCrawl Colorado App</h3>
+                                <p class="title is-4">PubCrawl Colorado App</h3>
                                     <div class="content">
                                         <div class="card-image">
                                             <img src="../images/pubcrawl.png" alt="pubcrawl app" height="100px" width="150px">PubCrawl Colorado</img>
@@ -153,58 +154,45 @@
                             </div>
                         </div>
                  </div>
-            </div>
                 <!--Gallery2-->
-            <div class="columns has-same-height is-gapless">
-                <div class="column">
-                    <div class="card">
+                <div class="column is-one-third">
+                    <div class="card large round">
                         <div class="card-content">
-                        <h3 class="title is-4">Chase 'Em Game</h3>
+                        <p class="title is-4">Chase 'Em Game</h3>
                             <div class="content">
-                                <div class="card-image">
-                                <img src="../images/chasegame.png" alt="Chase Em Game" height="180px" width="250px"></img>
-                                </div>
-                                <a href="https://pages.git.generalassemb.ly/yettsyjk/SEI6_Project1-ChaseThem/" target="_blank">Chase `Em</a>
-                                    <p>Brick Breaker Style Game
-                                    <br/> Built with: HTML, CSS and Vanilla JavaScript.</p>
-                                    <p class="card-footer">Time frame: 1 week</p>
-                                    <progress class="progress is-primary" value="60" max="100"></progress>
-                             </div>
+                                    <div class="card-image">
+                                        <img src="../images/chasegame.png" alt="Chase Em Game" height="180px" width="250px"></img>
+                                        <a href="https://pages.git.generalassemb.ly/yettsyjk/SEI6_Project1-ChaseThem/" target="_blank">Chase `Em</a>
+                                        <p>Brick Breaker Style Game
+                                            <br/> Built with: HTML, CSS and Vanilla JavaScript.</p>
+                                            <p class="card-footer">Time frame: 1 week</p>
+                                            <progress class="progress is-primary" value="60" max="100"></progress>
+                                     </div>
                             </div>
                         </div>
+                    </div>
                 </div>
-            </div>
-     <!--Gallery3-->
-            <div class="columns has-same-height is-gapless">
-                    <div class="column">
-                        <div class="card">
-                            <div class="card-image">
-                            <figure class="image is-4by3">
-                            <img src="../images/giphySearchApp.png" alt="Giphy Search" height="100px" width="250px"></img>
-                            </figure>
-                            </div>
+                 <!--Gallery3-->
+                        <div class="column is-one-third">
+                            <div class="card large round">
                                 <div class="card-content">
-                                    <div class="media">
-                                        <div class="content">
-                                            <p class="title is-4">Giphy Search App</p>
-                                                    <a href="https://giphysearch.herokuapp.com/" target="_blank"></a>
-                                                </div> 
-                                                <div class="content">
-                                                <p>Third party API search application
+                                    <p class="title is-4">Giphy Search App</p>
+                                    <div class="content">
+                                        <div class="card-image">
+                                            <img src="../images/giphySearchApp.png" alt="Giphy Search" height="100px" width="250px"></img>
+                                            <a href="https://giphysearch.herokuapp.com/" target="_blank"></a>
+                                            <p>Third party API search application
                                                 <br/>Built with: ReactJS, HTML, CSS.</p>
                                                 <p class="card-footer">Time frame: 1 week</p>
                                                 <progress class="progress is-primary" value="60" max="100"></progress>
-                                                </div> 
                                         </div> 
-                                    </div>
+                                    </div> 
                                 </div>
+                            </div>
                         </div>
-                    </div>
-            </div>
-        
-    </div>
+        </div>
     </section>
-    </div>
+    
    
     <!--resume-->
     <section class="section" id="resume">

@@ -24,7 +24,7 @@
     "npm-run-all": "^4.1.5"
   },
   "devDependencies": {
-    "bulma": "^0.8.0",
+    "bulma": "^0.8.1",
     "lite-server": "^2.5.4"
   }
 }

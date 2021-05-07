@@ -4,4 +4,4 @@
 
 * Let's Connect [LinkedIn](www.linkedin.com/in/yettsy-jo-knapp)
 * Follow me on [Github](www.github.com/yettsyjk)
-* I'm actively looking for a career as a junior software developer [Resume] (https://drive.google.com/file/d/14gmMdX79HYiH7gOnixI_2LbeFKusbx0G/view?usp=sharing)
+  

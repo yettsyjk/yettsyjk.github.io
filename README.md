@@ -7,6 +7,6 @@
 - I empowered to use my critical thinking skills and put myself in the customer’s shoes to provide efficient and secure solutions. I enjoy the adventure and reward of learning new skills to craft, earning trust, delivering responsive, and useful customer email API platforms at every interaction. 
 - Its my pleasure to work with our fast-paced collaborative team and contribute to team growth. 
 
-* Let's Connect [LinkedIn](www.linkedin.com/in/yettsy-jo-knapp)
-* Follow me on [Github](www.github.com/yettsyjk)
+* Let's Connect [![LinkedIn](www.linkedin.com/in/yettsy-jo-knapp)]
+* Follow me on [![Github](www.github.com/yettsyjk)]
   
